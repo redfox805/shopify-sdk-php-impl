@@ -1,8 +1,11 @@
 # PHP Shopify SDK for Admin (Rest API) - Implementation Program
-Example implementation of Shopify SDK (PHP) by PHPClassic
+Example implementation of [Shopify SDK](https://github.com/phpclassic/php-shopify) (PHP) by PHPClassic
 
 ## Installation:
-1. Clone or download this repo on your machine, then do install php-shopify sdk [(php-shopify github)](https://github.com/phpclassic/php-shopify)
+1. Clone or download this repo on your machine, then do command 
+    ```sh
+    $ composer install
+    ```
 2. Make sure you're already have Shopify Partners account and do login. Go to Apps section page and click create app
 3. Choose "Custom app", fill "App name" as you wish, fill "App URL" with "http://{your_machine_host}/app_url.php", and fill "Allowed redirection URL(s)" with "http://{your_machine_host}/install.php". then, click "Create app"
 
